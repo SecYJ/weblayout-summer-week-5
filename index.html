@@ -1,10 +1,123 @@
----
-title: Boostrap Index
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Boostrap Index</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+		/>
+		<link rel="stylesheet" href="./assets/style/all.css" />
+	</head>
 
+	<body>
+		<div class="d-flex wrapper">
+			<nav
+				class="col-lg-3 py-8 bg-gray-100 d-flex flex-column justify-content-between bg-gray-light"
+			>
+				<div>
+					<img
+						src="./assets/images/logo.svg"
+						class="ps-8"
+						alt="logo"
+					/>
+					<ul class="list-unstyled mt-8">
+						<li>
+							<a
+								href="#"
+								class="d-flex align-items-center ps-8 navigation-item mb-8"
+							>
+								<span class="material-symbols-outlined">
+									insert_chart
+								</span>
+								<span class="ms-4 fw-bold"> Dashboard </span>
+							</a>
+						</li>
+						<li>
+							<a
+								href="#"
+								class="d-flex align-items-center ps-8 navigation-item mb-8"
+							>
+								<span class="material-symbols-outlined">
+									forum
+								</span>
+								<span class="ms-4 fw-bold"> Question </span>
+							</a>
+						</li>
+						<li>
+							<a
+								href="#"
+								class="d-flex align-items-center ps-8 navigation-item mb-8"
+							>
+								<span class="material-symbols-outlined">
+									assignment
+								</span>
+								<span class="ms-4 fw-bold"> Assignment </span>
+							</a>
+						</li>
+						<li>
+							<a
+								href="#"
+								class="d-flex align-items-center ps-8 navigation-item mb-8"
+							>
+								<span class="material-symbols-outlined">
+									video_library
+								</span>
+								<span class="ms-4 fw-bold"> Course </span>
+							</a>
+						</li>
+						<li>
+							<a
+								href="#"
+								class="d-flex align-items-center ps-8 navigation-item mb-8"
+							>
+								<span class="material-symbols-outlined">
+									group
+								</span>
+								<span class="ms-4 fw-bold"> Admin </span>
+							</a>
+						</li>
+						<li>
+							<a
+								href="#"
+								class="d-flex align-items-center ps-8 navigation-item mb-8"
+							>
+								<span class="material-symbols-outlined">
+									settings
+								</span>
+								<span class="ms-4 fw-bold"> Settings </span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="d-flex px-8 align-items-center">
+					<img
+						src="./assets/images/andychen.jpeg"
+						class="user-avatar rounded-circle"
+						alt="Andy Chen"
+					/>
+					<div class="ms-4">
+						<p class="fw-bold mb-1">Andy Chen</p>
+						<small class="text-secondary">andy0401@mail.com</small>
+					</div>
+				</div>
+			</nav>
+			<div
+				class="col-lg-9 px-8 d-flex flex-column justify-content-between pb-8"
+			>
+				
 <div>
 	<header class="py-8 d-flex justify-content-between align-items-center">
 		<div class="d-flex">
@@ -231,3 +344,11 @@ current: index
 		</li>
 	</ul>
 </nav>
+
+			</div>
+		</div>
+
+		<script src="./assets/js/vendors.js"></script>
+		<script src="./assets/js/all.js"></script>
+	</body>
+</html>
